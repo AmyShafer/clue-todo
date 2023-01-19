@@ -14,6 +14,20 @@ function TodoList() {
 
         setTodos(newTodos);
     };
+ 
+    const editTodo = (todoId, newValue) => {
+      if(!newValue.text || /^\s*$/.test(newValue.text)) {
+        return;
+      }
+
+      setTodos(prev => prev.map(item => item.id === todoId ? newValue : item));
+  };
+
+    const removeTodo = id => {
+      const removeArr = [...todos].filter(todo => todo.id !== id);
+
+      setTodos(removeArr);
+    };
 
     const completeTodo = id => {
         let updatedTodos = todos.map(todo => {
@@ -30,8 +44,10 @@ function TodoList() {
         <h1>Flames, on the side of my face, breathing-breathl- heaving breaths. Heaving breaths... Heathing...</h1>
         <TodoForm onSubmit={addTodo} />
         <Todo 
-        todos={todos}
-        completeTodo={completeTodo}
+        todos = {todos}
+        editTodo = {editTodo}
+        removeTodo = {removeTodo}
+        completeTodo = {completeTodo}
         />
     </div>
   )

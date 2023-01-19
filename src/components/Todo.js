@@ -3,14 +3,14 @@ import TodoForm from './TodoForm';
 import { GiDeathSkull } from 'react-icons/gi';
 import { BsVectorPen } from 'react-icons/bs';
 
-const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
+const Todo = ({ todos, completeTodo, editTodo, removeTodo }) => {
   const [edit, setEdit] = useState({
     id: null,
     value: ''
   });
 
   const submitUpdate = value => {
-    updateTodo(edit.id, value);
+    editTodo(edit.id, value);
     setEdit({
         id: null,
         value: ''
