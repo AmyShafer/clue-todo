@@ -13,9 +13,9 @@
     --what-really-happened-white: #f6f6f5;
     --dice-white: #fcfffb;
     --secret-passage-cyan: #12CFF8;
-    --hasbro-blue: #09add1;
-    --flam-flames: #f7be2c;
-    --kingdom-of-heaven-gold: #f7be2c;
+    --hasbro-blue: #0988d1;
+    --flam-flames: #ed991c;
+    --kingdom-of-heaven-gold: #fada3c;
     --jolly-good-green: #08C46D;
     --mr-green: #018c4c;
     --with-the-rope: #A67041;
@@ -26,7 +26,7 @@
 }
 
 body {
-    background: black url("../assets/images/wallpaper1.png") center repeat;
+    background: black url("../src/assets/bricks2.png") center repeat;
 }
 
 .clue-todo {
@@ -45,8 +45,8 @@ body {
 h1 {
     margin: 32px 0;
     color: var(--red-herring);
-    font-family: 'Cuprum', sans-serif;
-    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 34px;
 }
 
 .complete {
@@ -69,11 +69,12 @@ h1 {
 }
 
 .todo-input::placeholder {
-    color: var(--hasbro-blue);
+    color: var(--dice-white);
+    font-size: 1.2em;
 }
 
 .todo-button {
-    padding: 16px;
+    padding: 13px;
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
@@ -83,7 +84,9 @@ h1 {
         var(--cognac) 0%,
         var(--red-herring) 100%
     );
-    padding: 16px 22px;
+    padding: 13px 22px;
+    color: var(--dice-white);
+    font-size: 1.2em;
 }
 
 .todo-container {

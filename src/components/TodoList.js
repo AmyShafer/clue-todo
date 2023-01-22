@@ -41,7 +41,7 @@ function TodoList() {
 
   return (
     <div>
-        <h1>Flames, on the side of my face, breathing-breathl- heaving breaths. Heaving breaths... Heathing...</h1>
+        <h1>Clue To Do List</h1>
         <TodoForm onSubmit={addTodo} />
         <Todo 
         todos = {todos}
