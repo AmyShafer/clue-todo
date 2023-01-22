@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Kanit:wght@400;800&family=Kavoon&family=Vujahday+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', 'Kanit', 'Kavoon', 'Vujahday Script', sans-serif;
+}
+
+:root {
+    --cognac: #961614;
+    --red-herring: #f22333; 
+    --what-really-happened-white: #f6f6f5;
+    --dice-white: #fcfffb;
+    --secret-passage-cyan: #12CFF8;
+    --hasbro-blue: #09add1;
+    --flam-flames: #f7be2c;
+    --kingdom-of-heaven-gold: #f7be2c;
+    --jolly-good-green: #08C46D;
+    --mr-green: #018c4c;
+    --with-the-rope: #A67041;
+    --in-the-study: #591902;
+    --j-edgar-hoover-gray: #443f40; 
+    --blackmail: #0d0d0d;
+    
+}
+
+body {
+    background: black url("../assets/images/wallpaper1.png") center repeat;
+}
+
+.clue-todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: var(--blackmail);
+    text-align: center;
+    margin: 125px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+h1 {
+    margin: 32px 0;
+    color: var(--red-herring);
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid var(--with-the-rope);
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: var(--dice-white);
+}
+
+.todo-input::placeholder {
+    color: var(--hasbro-blue);
+}
+
+.todo-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+        90deg, 
+        var(--cognac) 0%,
+        var(--red-herring) 100%
+    );
+    padding: 16px 22px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: var(--dice-white);
+    background: linear-gradient(
+        90deg,
+        var(--hasbro-blue) 0%, 
+        var(--secret-passage-cyan) 100%
+    );
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+        90deg,
+        var(--mr-green) 0%,
+        var(--jolly-good-green) 100%
+    );
+}
+
+.todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+        90deg,
+        var(--flam-flames) 0%,
+        var(--kingdom-of-heaven-gold) 100%
+    );
+}
+
+.todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+        90deg,
+        var(--in-the-study) 0%,
+        var(--with-the-rope) 100%
+    );
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    margin-right: 5px;
+    color: var(--dice-white);
+}
+
+.edit-icon {
+    color: var(--what-really-happened-white);
+}
