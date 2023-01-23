@@ -18,45 +18,39 @@ This application was built using HTML, CSS, JavaScript, React.
 
 Users do not need setup.
 
----
-
 ## Mockup
 
-The following images shows the website in play!
+The following images show the website in play!
 
- &nbsp;
+&nbsp;
 
 Opening the Clue To Do App looks something like this. 🎲 
 
 <img src="src/assets/clue1.png" width="410" height="330" alt="clue-app-start"/>
 
- &nbsp;
+&nbsp;
 
 This is also how the app can look. 🔎
 
 <img src="src/assets/clue2.png" width="410" height="330" alt="clue-app-with-tasks"/>
 
- &nbsp;
+&nbsp;
 
 The Clue To Do App may even look this way! 🔧
 
 <img src="src/assets/clue3.png" width="410" height="330" alt="clue-app-tast-complete"/>
 
----
-
 ## Resources-used
 
-* <a href="https://www.youtube.com/watch?v=E1E08i2UJGI" target="_blank"> A React tutorial from Brian Design was used as guidance for this project. </a> 
+A <a href="https://www.youtube.com/watch?v=E1E08i2UJGI" target="_blank">React tutorial</a> from Brian Design was used as guidance for this project.  
 
-* <a href="https://github.com/briancodex/react-todo-app-v1" target="_blank"> The creator's GitHub repo can be found at his handle @briancodex.</a> 
+The creator's <a href="https://github.com/briancodex/react-todo-app-v1" target="_blank">GitHub repo</a> can be found at his handle @briancodex.
 
 ## Future-plans
 
 In the future, I would like make task completion more intutive by adding as React icon to click instead of clicking on the entire task. 
 
 I also plan to host this project somewhere for easier viewing. 
-
----
 
 ## Github-url
 
