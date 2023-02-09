@@ -9,6 +9,7 @@ Whether planning a dinner party or simply going about your day, The Clue To Do A
 - [Resources-used](#resources-used)
 - [Future-plans](#future-plans)
 - [Github-url](#github-url)
+- [Deployed-on-render](#deployed-on-render)
 - [Author](#author)
 - [Licensing](#licensing)
 
@@ -50,11 +51,13 @@ The creator's <a href="https://github.com/briancodex/react-todo-app-v1" target="
 
 In the future, I would like make task completion more intutive by adding as React icon to click instead of clicking on the entire task. 
 
-I also plan to host this project somewhere for easier viewing. 
-
 ## Github-url
 
 <a href="https://github.com/AmyShafer/clue-todo" target="_blank"> Clue To Do App </a>
+
+## Deployed-on-Render
+
+<a href="https://clue-todo.onrender.com/" target="_blank"> Clue To Do App </a>
 
 ## Author
 
